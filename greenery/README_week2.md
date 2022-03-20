@@ -4,7 +4,8 @@ Below are the queries and answers:
 ### what is user repeat rate?
 Answer : 79.84
 
-Query : with order_count as 
+Query : 
+    with order_count as 
     (select user_id, count(distinct order_id) as order_cnt
     from dbt_neeraj_goyal.seg_user_order
     group by user_id)
