@@ -5,6 +5,7 @@ Below are the queries and answers:
 Answer : 79.84
 
 Query : 
+
     with order_count as 
     (select user_id, count(distinct order_id) as order_cnt
     from dbt_neeraj_goyal.seg_user_order
