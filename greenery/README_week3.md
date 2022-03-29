@@ -14,7 +14,11 @@ Query :
 Answer : 
 | Product Name | Page View  | Add to Cart  | Conversion Rate |
 | :---:   | :-: | :-: | :-: |
-| Bird of Paradise | 60 | 33 | 55.00
+| Bird of Paradise | 60 | 33 | 55.00 |
+| Devil's Ivy | 45 | 24 | 53.33 |
+| Dragon Tree | 62 | 34 | 54.84 |
+| Pothos | 61 | 24 | 39.34 |
+| Philodendron | 62 | 32 | 51.61 |
 
 
 Query: 
