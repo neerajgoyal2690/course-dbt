@@ -12,6 +12,9 @@ Query :
 
 ### WWhat is our conversion rate by product?
 Answer : 
+| Attempt | #1  | #2  |
+| :---:   | :-: | :-: |
+| Seconds | 301 | 283 |
 
 
 Query: 
