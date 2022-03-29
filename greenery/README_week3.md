@@ -10,7 +10,7 @@ Query :
     count(distinct case when event_type = 'checkout' then session_id end)*100.0/count(distinct session_id) as cnt
     from dbt_neeraj_goyal.stg_events
 
-### WWhat is our conversion rate by product?
+### What is our conversion rate by product?
 Answer : 
 | Product Name | Page View  | Add to Cart  | Conversion Rate |
 | :---:   | :-: | :-: | :-: |
