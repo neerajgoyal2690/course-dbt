@@ -10,7 +10,5 @@ SELECT
     user_id,
     event_type,
     page_url,
-    created_at,
-    order_id,
-    product_id
-FROM {{source('source', 'events')}}
+    created_at
+FROM {{ref('stg_events')}}
