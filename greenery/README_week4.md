@@ -4,7 +4,9 @@ Below are the queries and answers:
 ### Part 1: DBT Snapshots?
 Answer : snapshot successfully run and can see 3 new records generated with updated data in snapshot using below query:
 
-Query : select * from snapshots.order_snapshot
+Query : 
+
+        select * from snapshots.order_snapshot
         where dbt_valid_to is not null
 
 
@@ -13,7 +15,9 @@ Answer : Total Session: 100.00%
          Cart Session: 80.80%
          Checkout Session: 62.46%
 
-query : select 
+query : 
+
+        select 
         round((page_view)*100.0 / (all_session),2) as total_sessions,
         round((add_to_cart)*100.0 / (all_session),2) as cart_sessions,
         round((checkout)*100.0 / (all_session),2) as checkout_sessions
